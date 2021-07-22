@@ -48,19 +48,21 @@ aolie_backapp为后端集成了所有插件的工程，aolie_frontapp为集成�
 7. **快速开始**
    
 
---开发方式
-----后端：
-  >a. 恢复数据库（数据库文件由Mysql 的mysqldump命令导出）。
-  >b. 下载依赖的工程，注意上述的依赖关系。修改最外层的工程文件 aolie.propertis 配置数据库连接。
-  >c. Maven install到本地仓库。
-  >d: 启动springboot.
-----前端：
-  >a. 需要搭建一个包管理私服，推荐使用verdaccio。使用方法请百度。
-  >b. 下载依赖的工程，被依赖的工程需要先发布到私服上.
-  >c. 如果后端的端口不是http://localhost:8080 ，则需要修改配置文件 config.json，指定后端的服务地址。
-  >d. npm start启动
---部署方式：
-  >a: 下载本工程的三个文件。后端包：app-0.0.1-SNAPSHOT-exec.jar，前端包：front.zip，数据库文件：dbback.zip（数据库文件由Mysql 的mysqldump命令导出）;
-  >b:后端包直接运行 java -jar app-0.0.1-SNAPSHOT-exec.jar;
-  >c:前端包，可以放入窗口中运行，如tomcat。
+**开发方式:**
+ >>
+   后端：
+   - 恢复数据库（数据库文件由Mysql 的mysqldump命令导出）。
+   - 下载依赖的工程，注意上述的依赖关系。修改最外层的工程文件 aolie.propertis 配置数据库连接。
+   - Maven install到本地仓库。
+   - 启动springboot.
+   >>
+   前端：
+   - 需要搭建一个包管理私服，推荐使用verdaccio。使用方法请百度。
+   - 下载依赖的工程，被依赖的工程需要先发布到私服上.
+   - 如果后端的端口不是http://localhost:8080 ，则需要修改配置文件 config.json，指定后端的服务地址。
+  
+**部署方式：**
+  - 下载本工程的三个文件。后端包：app-0.0.1-SNAPSHOT-exec.jar，前端包：front.zip，数据库文件：dbback.zip（数据库文件由Mysql 的mysqldump命令导出）;
+  - 后端包直接运行 java -jar app-0.0.1-SNAPSHOT-exec.jar;
+  - 前端包，可以放入窗口中运行，如tomcat。
   如果后端不是在端口8080上，请修改前端的配置文件config.json
