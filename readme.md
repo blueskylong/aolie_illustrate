@@ -41,9 +41,13 @@
 
 正是由于此为个人作品,所以在考虑应用到私活时,要慎重,因为我没有时间对些框架做详细的测试.如果有机会的话,我会以此框架来做几个私活,再稳定和完善一下此框架.
 
-6. **工程说明**
-工程分为前后端二大类，前端工作都带有front的后缀，后缀前面的和后端工程基本是对应的.其中aolie_core为后端核心工程，aolie_front为前端核心工程，
-aolie_backapp为后端集成了所有插件的工程，aolie_frontapp为集成了前端所有插件的工程。其它为插件工程。插件工程，只依据于核心工程。集成工程则依赖核心工程和选择的插件工程。
+6. **模块说明**
+系统分为前后端二大类，前端模块都带有front的后缀，后缀前面的和后端模块基本是对应的.除核心外,其它功能都以插件化的形式开发,只需要依赖核心模块.
+> aolie_core,aolie_front 为核心模块
+> aolie_wf,aolie_wf_front 工作流插件，基于flowable6.5.0,并简单集成了流程编辑器
+> aolie_monitor,aolie_monitor_front 系统监控插件， 监控系统状态，并显示图形化信息
+> aolie_query,aolie_query_front 综合查询插件. 基于数据模型的设计,从不同维度展现数据.
+> aolie_backapp,aolie_frontapp 集成模块.并没有逻辑,只是将使用的模块集成为一个工程,以发布.
 
 7. **快速开始**
    
@@ -66,3 +70,6 @@ aolie_backapp为后端集成了所有插件的工程，aolie_frontapp为集成�
   - 后端包直接运行 java -jar app-0.0.1-SNAPSHOT-exec.jar;
   - 前端包，可以放入窗口中运行，如tomcat。
   如果后端不是在端口8080上，请修改前端的配置文件config.json
+  
+  
+  ```管理员用户/密码：admin/1```
