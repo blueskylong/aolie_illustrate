@@ -75,3 +75,17 @@
   
   
   ```管理员用户/密码：admin/1```
+  
+  **界面预览**
+首页
+![Image text](https://github.com/blueskylong/aolie_illustrate/images/home.png)
+方案设计
+界面设计
+页面设计
+权限管理
+菜单管理
+报表定义
+报表查询
+流程定义
+流程查看
+三表联动
