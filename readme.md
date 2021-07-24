@@ -78,7 +78,7 @@
   
   **界面预览**
 首页
-![Image text](https://github.com/blueskylong/aolie_illustrate/tree/master/images/home.png)
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/demo.png)
 方案设计
 界面设计
 页面设计
