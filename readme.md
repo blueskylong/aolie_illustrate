@@ -4,7 +4,7 @@
 
 1. **起因**
 
-走上开发道路已经有段年头了,一直以来,遇到问题,总是做伸手党,非常感谢广大码友的                                                                                                         无私奉献,能够让我们在遇到问题时,能找到解决的方法.每人都奉献一点,码农幸福一点.
+走上开发道路已经有段年头了,一直以来,遇到问题,总是做伸手党,非常感谢广大码友的无私奉献,能够让我们在遇到问题时,能找到解决的方法.每人都奉献一点,码农幸福一点.
 
 某些原因,我要在家待上二年,正好把我上班期间的所学和思考予以实现,奉献出来,做个引子,欢迎大家指导,讨论.本框架99%由我个人完成,每行代都手工敲出来,完全开源,欢迎码友们提意见,不断完善此框架,讨论组QQ群号：点击链接加入群聊【一起讨论--熬烈】：https://jq.qq.com/?_wv=1027&k=m7WCvDJr
 
@@ -31,7 +31,7 @@
 
    b: 方案管理中引用此表,设置约束,公式及表间关系
 
-   c: 设计界面
+   c:  设计界面
 
    d: 设计页面
 
@@ -76,16 +76,25 @@
   
   ```管理员用户/密码：admin/1```
   
-**界面预览**
+  **界面预览**
+  
 首页
-![Image text](https://github.com/blueskylong/aolie_illustrate/images/home.png)
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/home.png)
 方案设计
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/schema.png)
 界面设计
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/uidesign.png)
 页面设计
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/pagedesign.png)
 权限管理
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/right.png)
 菜单管理
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/menu.png)
 报表定义
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/querydesign.png)
 报表查询
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/query.png)
 流程定义
-流程查看
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/flowable.png)
 三表联动
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/demo.png)
