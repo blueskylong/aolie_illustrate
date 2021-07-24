@@ -77,6 +77,7 @@
   ```管理员用户/密码：admin/1```
   
   **界面预览**
+  
 首页
 ![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/home.png)
 方案设计
