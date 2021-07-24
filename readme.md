@@ -78,14 +78,22 @@
   
   **界面预览**
 首页
-![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/demo.png)
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/home.png)
 方案设计
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/schema.png)
 界面设计
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/uidesign.png)
 页面设计
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/pagedesign.png)
 权限管理
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/right.png)
 菜单管理
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/menu.png)
 报表定义
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/querydesign.png)
 报表查询
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/query.png)
 流程定义
-流程查看
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/flowable.png)
 三表联动
+![Image text](https://github.com/blueskylong/aolie_illustrate/blob/master/images/demo.png)
